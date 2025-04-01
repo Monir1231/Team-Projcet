@@ -1,0 +1,95 @@
+@media only screen and (min-width: 320px) and (max-width:768px){
+    .portfolio-section, .team-section{
+        padding: 1rem;
+    }
+    .portfolio-header, .team-header{
+        margin-bottom: 1rem;
+    }
+    .portfolio-header h2, .team-header h2{
+        font-size: 2rem;
+    }
+    .gallery-item{
+        flex: 50%;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .team-gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0rem;
+        justify-content: center;
+    }
+    .member{
+        width: 80%;
+        margin: 1rem auto;
+    }
+    .hover-effect{
+        max-width: 100%;
+        background-color: aqua;
+    }
+    .hover-effect img{
+        max-width: 100%;
+    }
+    .team-content h3{
+        font-size: 1rem;
+    }
+
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+    .portfolio-section{
+        max-width:100%;
+        margin: 1rem auto;
+        padding: 0 1rem;
+    }
+    .team-gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        justify-content: center;
+    }
+    .member{
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width:993px) and (max-width:1199px){
+    .portfolio-section, .team-section{
+        max-width: 100%;
+        margin: 1rem auto;
+        padding: 0 1rem;
+    }
+    .team-gallery{
+        display:flex;
+        gap: 1rem;
+        width: 100%;
+        margin: 1rem;
+    }
+    .hover-effect{
+        max-width: 90%;
+    }
+    .hover-effect img{
+        max-width: 100%;
+    }
+    .team-content{
+        max-width: 90%;
+    }
+
+}
+@media only screen and (min-width:1200px) and (max-width:1440px){
+    .portfolio-section, .team-section{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 3rem;
+
+    }
+    .team-gallery{
+        margin: 0 auto;
+    }
+    .hover-effect{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .hover-effect img{
+        max-width: 100%;
+    }
+
+}
